@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Rose:wght@700&display=swap');
+*{
+	margin: 0;
+}
+body{
+	background: #4a536b;
+}
+.clock{
+	height:100px;
+	width: 200px;
+	margin: 100px auto;
+	border: 30px solid #000000;
+	border-radius: 5px;
+	position: relative;
+}
+.badge{
+	background-color: #ecc19c ;
+	color: #1e847f;
+	text-align: center;
+	padding: 0px;
+	width: 40px;
+	position: absolute;
+	top:-8px;
+	left:80px;
+	margin: 0px auto; 
+	font-family: 'Red Rose', cursive;
+}
+
+.time{
+	background-color: #1e847f;
+	color: #ecc19c ;
+	padding: 40px 40px;
+	text-align: center;
+	border-radius: 5px;
+	font-family: 'Red Rose', cursive;
+}
+
