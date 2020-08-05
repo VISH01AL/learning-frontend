@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+* {
+    margin: 0;
+}
+body{
+    background-color: #0049B7;
+}
+.heading{
+    width: 100%;
+    height:20vh;
+    font-family: 'Roboto', sans-serif;
+    color:white;
+    font-size: 4em;
+    background-color: #ff1d58;
+    text-align: center;
+    padding-top:5vh;
+    box-sizing: border-box;
+}
+#tictactoe {
+    width: 300px;
+    height: 300px;
+    margin: 15vh auto;
+    border: 1px solid #ff1d58;
+}
+
+.cell {
+    background-color: #242582;
+    width:33.33%;
+    height:33.33%;
+    margin: 0;
+    margin-right: -5px;
+    
+}
+a{
+    font-family: 'Roboto', sans-serif;
+    color:white;
+    font-size: 5em;
+    text-decoration: none;
+    
+}
+a:hover{
+    background-color: #00DDFF;
+}
+.val{
+  margin-top:50px;
+ margin-left:30px;
+
+}
+.cell1,.cell2,.cell3{
+    display: inline-block;
+}
+.cell1{
+    border-bottom: 3px solid #ff1d58;
+}
+.cell2{
+    border-bottom: 3px solid #ff1d58;
+}
+.z-z,.o-z,.t-z{
+    border-right: 3px solid #ff1d58;
+}
+.z-t,.o-t,.t-t{
+    border-left:3px solid #ff1d58;
+}
