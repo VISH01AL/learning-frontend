@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap');
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    background-color: #0049B7;
+}
+.heading{
+   background-color: #ff1d58;
+   padding:20px 0px;
+   text-align: center;
+   font-family: 'Courier Prime', monospace;
+   font-size: 3em;
+   color:#00DDFF;
+}
+.watch{
+    position: relative;
+}
+.circle{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 3px solid #f75990;
+    margin:8.5% auto;
+    box-sizing: border-box;
+    position: relative;
+    text-align: center;
+    margin-bottom: 10px;
+    color:#fff685;
+}
+.time{
+    padding-top: 95px;
+    font-size: 3em;
+    font-family: 'Courier Prime', monospace;
+
+}
+
+
+.buttons{
+    margin:0px auto;
+    color:white;
+    width:270px;
+    background-color:#ff1d58;
+    font-family: 'Courier Prime', monospace;
+}
+img{    
+    border-radius: 50%;
+}
+#reset{
+    float:left;
+    padding:20px 40px;
+    margin-right:43px;
+    cursor: pointer;
+    border-right:2px solid #00DDFF;
+    background-color:#ff1d58;
+
+}
+#start{
+    width: calc(53%-20);
+    float:left;
+    padding:10px;
+    cursor: pointer;
+}
+.clear{
+    clear:both;
+}
